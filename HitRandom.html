@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hit Random Numbers</title>
+    <link rel="stylesheet" href="hitRandom.css">
+</head>
+<body>
+<audio  id="audio">
+    <source src="/tictic.mp3">
+</audio>
+    <main>
+        <div id="container">
+            <div class="top">
+                <ul>Hit:<input type="text" id="hit" readonly value="00"></ul>
+                <ul>Timer:<input type="text" id="timer" readonly value="60"></ul>
+                <ul>Score:<p type="text" id="score">0</p></ul>
+            </div>
+            <div class="main" id="main">
+                <!-- <span id="1">01</span> -->
+
+                
+               
+            </div>
+        </div>
+        
+        <div id="gameOver">
+            <div class="g-container">
+                <h1>Score: <h2 id="total">0000</h2></h1>
+                <p>GameOver</p>    
+            </div>
+            <div id="retry">
+                <button>Retry</button>
+            </div>  
+        </div>
+        
+    </main>
+    <script src="hitGame.js"></script>
+</body>
+</html>
